@@ -22,3 +22,12 @@ h1{
 p{
     line-height: 300%;
 }
+
+img{
+    width: 30%;
+}
+
+img:hover{
+    width: 70%;
+    border: solid black;
+}
