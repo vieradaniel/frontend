@@ -31,3 +31,19 @@ img:hover{
     width: 70%;
     border: solid black;
 }
+
+li {
+    font-weight: bold;
+}
+
+li:hover{
+    font-weight: 100;
+}
+
+li:last-child{
+    color: red;
+}
+
+li>a {
+    color: blue;
+}
