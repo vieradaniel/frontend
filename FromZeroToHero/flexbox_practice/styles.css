@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    
+    justify-content: start;
+    flex-wrap: wrap;
+}
+div{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+.box1{
+    
+    background-color: rgb(44, 161, 34);
+}
+.box2{
+    background-color: teal;
+}
+.box3{
+    background-color: rgb(193, 199, 110);
+}
+.box4{
+    background-color: rgb(128, 0, 0);
+}
