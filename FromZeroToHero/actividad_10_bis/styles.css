@@ -19,6 +19,10 @@
     justify-content: center;
     align-items: center;   
 }
+.header__navbar{
+    
+    
+}
 /* to align the items I decided to divide the ul into 3 items and use space around */
 ul{
     display: flex;
@@ -30,6 +34,9 @@ ul{
 li{
     margin: 10px;
 }
+a{
+   text-decoration: none;
+}
 .header__mid{
    position: relative;
    display: flex;
@@ -38,9 +45,9 @@ li{
 #brand_name{
     
 }
-#language{
-    
-
+select{
+    border: none;
+    background-color: #F6F6F6;
 }
 
 .section_1{
@@ -86,7 +93,7 @@ p{
     align-items: center; 
     background: #FFFFFF;
     border-radius: 10px;
-    width: 1140px;
+    width: 80%;
     height: 200px;
     border: none;
     max-width: 100%;
@@ -97,14 +104,26 @@ p{
 
 /* to display the text next to the icon.. is it ok to use flex? */
 /* the icons were positioned at the top because of the height of the div (is it ok to change the height?)*/
+/* I think I'm repeating code here, I might think of a way of not duplicating code (all the sections might
+have the same styles so I might use only one class for all of them but what if later in the future I want
+to be more specific? ) */
 .section_2_left{
     display: flex;
     flex-direction: row;
     height: 100px;
 }
-#section_2_user_icon , #section_2_location_icon , #section_2_server_icon{
+.section_2_icons{
     width: 55px;
     height: 55px;
+}
+#section_2_icontext{
+    margin-left: 30px;
+}
+.section_2_text_paragraph{
+    margin-top: 0;
+    font-weight: bold;
+    
+    
 }
 .section_2_middle{
     display: flex;
