@@ -89,17 +89,19 @@ p{
 /*how to center section2 block? is it ok to use margin left and right auto?*/
 .section_2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center; 
     background: #FFFFFF;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     height: 200px;
     border: none;
     max-width: 100%;
     margin-top:100px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
 }
 
 /* to display the text next to the icon.. is it ok to use flex? */
@@ -116,12 +118,13 @@ to be more specific? ) */
     width: 55px;
     height: 55px;
 }
-#section_2_icontext{
+.section_2_icontext{
     margin-left: 30px;
 }
 .section_2_text_paragraph{
     margin-top: 0;
     font-weight: bold;
+    color: #0B132A;
     
     
 }
