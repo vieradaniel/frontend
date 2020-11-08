@@ -28,7 +28,8 @@ ul{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    flex-wrap: wrap;     
+    flex-wrap: wrap;
+    padding: 0;     
      
 }
 li{
@@ -38,7 +39,6 @@ a{
    text-decoration: none;
 }
 .header__mid{
-   position: relative;
    display: flex;
    
 }
