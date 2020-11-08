@@ -24,6 +24,7 @@
     
 }
 /* to align the items I decided to divide the ul into 3 items and use space around */
+/*anyhow , the mid nav items are not really in the middle, how can I do it? */
 ul{
     display: flex;
     justify-content: space-around;
@@ -40,6 +41,8 @@ a{
 }
 .header__mid{
    display: flex;
+   
+   
    
 }
 #brand_name{
