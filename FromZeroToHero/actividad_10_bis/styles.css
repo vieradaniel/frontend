@@ -117,6 +117,7 @@ to be more specific? ) */
     display: flex;
     flex-direction: row;
     height: 100px;
+    
 }
 .section_2_icons{
     width: 55px;
@@ -136,18 +137,16 @@ to be more specific? ) */
     display: flex;
     flex-direction: row;
     height: 100px;
+    
 }
 
 .section_2_right{
     display: flex;
     flex-direction: row;
     height: 100px;
+    
 }
 
-#section_2_location_icon{
-    width: 55px;
-    height: 55px;
-}
 
 .section_3{
     display: flex;
