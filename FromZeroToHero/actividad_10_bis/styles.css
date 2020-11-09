@@ -147,3 +147,25 @@ to be more specific? ) */
     width: 55px;
     height: 55px;
 }
+
+.section_3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-top:100px;   
+}
+
+#section_3_image{
+    max-width: 100%;
+    
+    
+}
+.section_3_right_side{
+    max-width: 450px;
+}
+h2{
+    color: #8CC5F9;
+    font-size: 35px;
+    font-weight: 500;
+    
+}
