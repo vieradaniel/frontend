@@ -111,7 +111,7 @@ p{
     height: 200px;
     border: none;
     max-width: 100%;
-    margin-top:100px;
+    margin-top:10%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
@@ -162,7 +162,7 @@ to be more specific? ) */
     display: flex;
     justify-content: space-around;
     flex-wrap:wrap;
-    margin-top:100px;   
+    margin-top:10%;   
 }
 
 #section_3_image{
@@ -200,3 +200,21 @@ li>img{
     color: #8CC5F9;
     margin-left: 35px;  
 }
+
+.section_4{
+    margin-top: 10%;
+}
+.section_4-titles{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    margin-left:20% ;
+    margin-right: 20%;
+    text-align: center;
+}
+.section_4-titles > h2{
+    color: black;
+    font-weight: bold;
+}
+.section_4-article
