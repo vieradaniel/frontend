@@ -217,4 +217,32 @@ li>img{
     color: black;
     font-weight: bold;
 }
-.section_4-article
+.section_4-article-item{
+    background-color: white;
+    width:20rem;
+    height: 20rem;
+    margin: 1rem; 
+    border-radius: 10px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.section_4-article-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.section_4-article-item-child{
+    margin: 1rem;
+    
+    
+}
+.section_4-article-item-child-button{
+    position: relative;
+    bottom: -5rem;
+    width: 42%;
+    height: 1.7rem;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    color: #8CC5F9;
+    border: 0.1rem solid #8CC5F9;
+}
