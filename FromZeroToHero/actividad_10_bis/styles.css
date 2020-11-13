@@ -20,9 +20,8 @@
     align-items: center;   
 }
 
-/* to align the items I decided to divide the ul into 3 items and use space around */
-/*anyhow , the mid nav items are not really in the middle, how can I do it?  I added a margin in the 
- header__mid but now it is not centered when it is a small screen*/
+
+/*anyhow , the mid nav items are not really in the middle, how can I do it?  */
 
 .header__navbar{
     display: flex;
