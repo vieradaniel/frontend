@@ -62,7 +62,7 @@ select{
 h1{
     
     color: #8CC5F9;
-    font-size: 3rem;
+    font-size: 300%;
     font-weight: 700;
     margin-bottom:1rem;
     
@@ -94,10 +94,10 @@ p{
     background-color: #878ABC;
 }
 #section_1_image{  
-    width: 35rem;
-    height: 18rem;
+    width: 100%;
     margin-top: 3rem;
-    max-width: 100%; /*to resize the img when the screen is smaller */    
+    
+   
 }
 /*how to center section2 block? is it ok to use margin left and right auto?*/
 .section_2{
@@ -201,7 +201,7 @@ li>img{
     margin-left: 35px;  
 }
 
-.section_4{
+.section_4 , .section_5{
     margin-top: 10%;
 }
 .section_4-titles{
@@ -232,9 +232,7 @@ li>img{
     flex-wrap: wrap;
 }
 .section_4-article-item-child{
-    margin: 1rem;
-    
-    
+    margin: 1rem;        
 }
 .section_4-article-item-child-button{
     position: relative;
@@ -245,4 +243,20 @@ li>img{
     background-color: #FFFFFF;
     color: #8CC5F9;
     border: 0.1rem solid #8CC5F9;
+}
+.section_5-image{
+    display: block;
+    margin-top: 4rem;  
+    width: 160%;
+    
+}
+
+.section_6{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
+.section_6_img{
+    width: 80%;
 }
