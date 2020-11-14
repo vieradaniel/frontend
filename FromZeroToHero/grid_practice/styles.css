@@ -1,9 +1,23 @@
 .grid-container{
     display: grid;
-    grid-template-rows: 150px 150px 150px;
-    grid-template-columns: 150px 150px 1fr;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: 150px 150px 150px 1fr;
 }
 
 .grid-item{
     border: 1px solid black;
+    
+}
+.grid-item:first-child{
+    background-color: red;
+    grid-column:1/3;
+    grid-row: 1/3;
+}
+.grid-item:nth-child(2){
+    background-color: blue;
+    grid-column: 3/5;
+    grid-row: 1/3;
+    
+    
+    
 }
