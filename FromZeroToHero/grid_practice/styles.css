@@ -14,7 +14,7 @@
     .grid-container{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 30px 2fr 1fr 30px;
+        grid-template-rows: 30px 2fr  30px;
         height: 100%;
     }
         header{
@@ -32,8 +32,9 @@
             margin: 0;
             height: 30px;
         }
-        li{
-            
+        
+        a{
+            text-decoration: none;
         }
 
         main{
@@ -41,6 +42,7 @@
             
         }
         aside{
+            display: none;
             background-color: yellow;
             
         }
@@ -64,6 +66,20 @@
             grid-column: 1/5;
             grid-row: 1/ 2;
         
+        }
+        header>ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            padding-bottom: 0;
+            padding-inline-start:0;
+            margin: 0;
+            height: 30px;
+        }
+        
+        a{
+            text-decoration: none;
         }
         
         main{
