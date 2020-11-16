@@ -14,11 +14,13 @@
     .grid-container{
         display: grid;
         grid-template-columns: 1fr ;
-        grid-template-rows: 30px 2fr  30px;
+        grid-template-rows: 58px 2fr  88px;
         height: 100%;
     }
         header{
-            background-color: red;   
+            
+            border: 1px solid #afafaf;
+            
         
         }
         
@@ -30,7 +32,7 @@
             padding-bottom: 0;
             padding-inline-start:0;
             margin: 0;
-            height: 30px;
+            height: 58px;
         }
         
         a{
@@ -38,18 +40,26 @@
         }
 
         main{
-            background-color: blue;
             
+            border: 1px solid #afafaf;           
         }
         aside{
             display: none;
-            background-color: yellow;
-            
+            background-color: yellow;            
         }
         footer{
-            background-color: green;
-           
-        }     
+           border: 1px solid #afafaf;           
+        } 
+        footer>ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            padding-bottom: 0;
+            padding-inline-start:0;
+            margin: 0;
+            height: 88px;
+        } 
     
 }   
     
