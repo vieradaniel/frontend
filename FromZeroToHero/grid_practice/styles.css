@@ -20,10 +20,12 @@
         header{
             
             border: 1px solid #afafaf;
+            /* I think it is not the best option to add a position fixed to a grid item, what approach should I really take here? to have the same result? */
             position: fixed;
+            
             top: 0;
             width: 100%;
-            background-color:red;
+            background-color:#FFF;
         
         }
         
@@ -45,6 +47,7 @@
         main{
             
             border: 1px solid #afafaf;
+            
                       
         }
         .main-div{
@@ -81,7 +84,8 @@
            border: 1px solid #afafaf;
            position: fixed;
            bottom: 0;
-           width: 100%;           
+           width: 100%;
+           background-color: #FFF;           
         } 
         footer>ul{
             display: flex;
@@ -92,7 +96,7 @@
             padding-inline-start:0;
             margin: 0;
             height: 88px;
-            background-color: red;
+            
             
         } 
        
