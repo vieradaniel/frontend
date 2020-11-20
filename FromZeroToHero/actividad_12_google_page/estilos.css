@@ -1,0 +1,58 @@
+/* Reseteo global */
+* { 
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/**
+COMIENZA: Cabecera de página
+**/
+ul { 
+    list-style: none;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+header, .menu-superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+
+.redondo {
+    border-radius: 50%;
+}
+
+.imagen-miniatura {
+    width: 32px;
+    height: 32px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+main>img{
+    width: 100%;
+}
+/**
+FINALIZA: Cabecera de página
+**/
+
+@media () {
+
+}
