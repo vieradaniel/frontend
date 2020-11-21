@@ -8,7 +8,10 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 /**
@@ -16,7 +19,22 @@ COMIENZA: Cabecera de página
 **/
 ul { 
     list-style: none;
+    
 }
+a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #70757a;
+    /* le puse un display block y se centro... entiendo pero no entiendo */
+    display: block;
+}
+/* onclick it looks like I need js for this 
+a:active{
+    margin-bottom: 2px solid red;
+} 
+21/11/20 edited : NONONO, its a property by default to be displayed on the new page */
+
 
 .icon {
     width: 24px;
@@ -26,11 +44,29 @@ ul {
 header, .menu-superior {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;    
     width: 100%;
     padding: 0;
+    height: 48px;
+    margin: 0;
 }
+.menu--superior--left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 40%;
+}
+.menu--superior--right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    width: 20%;
+    
+}
+
+
 
 .redondo {
     border-radius: 50%;
@@ -40,20 +76,37 @@ header, .menu-superior {
     width: 32px;
     height: 32px;
 }
+
+/**
+FINALIZA: Cabecera de página
+**/
 main{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     margin: 1rem;
+    
+    
 }
 main>img{
-    width: 100%;
+    height: 10rem;
     margin-bottom: 1rem;
+    
 }
-/**
-FINALIZA: Cabecera de página
-**/
+.rounded-corners{
+    border-radius: 10px;
+}
+form{
+    border: 1px solid black;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+input{
+    border: none;
+}
 
 @media () {
 
