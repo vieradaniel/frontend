@@ -95,19 +95,51 @@ main>img{
     
 }
 .rounded-corners{
-    border-radius: 10px;
+    border-radius: 20px;
 }
 form{
-    border: 1px solid black;
+    
+    border: 1px solid #70757a;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
 }
 button{
     background-color: transparent;
     border: none;
+    margin: 7px;
+    padding: 0;
+    
 }
+.span--below--form{
+    margin-top: 7%;
+}
+
 input{
     border: none;
 }
 
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.menu-inferior{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    
+    
+}
+.footer--h1{
+    margin: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: #70757a;
+    border-bottom: 1px solid #dadce0;
+    padding-bottom: 1rem;
+}
 @media () {
 
 }
