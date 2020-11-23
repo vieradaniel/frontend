@@ -70,16 +70,17 @@ main{
     justify-content: center;
 }
 .main--two--circles{
-     
-    margin: 1rem;
-    display: block;
-    
-    
-    
-    
+    display: flex;
+    justify-content: center;   
+        
+}
+.main--three--circles{
+    display: flex;
+    justify-content: center;
 }
 .main--all--circles{
-
+    margin: 5px;
+    margin-bottom: 1rem;
 }
 .main-h2{
     color: #4B4B4B;
@@ -93,6 +94,10 @@ main{
     font-weight: 500;            
         
 }
+.hidden--main--bottom{
+    
+    height: 100px;
+}   
 
 footer{
     border: 1px solid #e5e5e5;
