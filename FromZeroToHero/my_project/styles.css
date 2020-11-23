@@ -19,7 +19,7 @@
 }
 header{
     
-    border: 1px solid #afafaf;
+    border: 1px solid #e5e5e5;
     /* I think it is not the best option to add a position fixed to a grid item, what approach should I really take here? to have the same result? */
     position: fixed;    
     top: 0;
@@ -63,7 +63,23 @@ main{
                                                 
 }
 .section--intro{
-    margin-top: 68px;
+    margin-top: 88px;
+}
+.main--one--circle{
+    display: flex;
+    justify-content: center;
+}
+.main--two--circles{
+     
+    margin: 1rem;
+    display: block;
+    
+    
+    
+    
+}
+.main--all--circles{
+
 }
 .main-h2{
     color: #4B4B4B;
@@ -75,23 +91,11 @@ main{
 .main-p{
     color: #4B4B4B;
     font-weight: 500;            
-    
-    
-}
-section{
-
-}
-article{
-
+        
 }
 
-
-aside{
-    display: none;
-    background-color: yellow;            
-}
 footer{
-    border: 1px solid #afafaf;
+    border: 1px solid #e5e5e5;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -111,7 +115,7 @@ footer>ul{
 } 
 
 
-}   
+ 
 
 
 
