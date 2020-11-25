@@ -63,10 +63,9 @@ header, .menu-superior {
 .menu-expandible{
     display: none;
     width: 60%;
-   
+    height: 100%;
     
-    
-        
+          
 }
 
 
@@ -76,8 +75,27 @@ header, .menu-superior {
     top: 0; 
     display: block;
     background-color:#FFF;
+    animation-name: collapsible-menu;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    
     
 }
+@keyframes collapsible-menu {
+    0%   {
+        position: absolute;
+        left: -200px;
+        
+    }
+    25%  {}
+    50%  {}
+    100% {
+        position absolute;
+        left: 0;
+    }
+  }
+
+
 .menu--superior--right{
     display: flex;
     align-items: center;
