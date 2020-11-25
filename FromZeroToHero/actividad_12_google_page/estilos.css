@@ -57,6 +57,27 @@ header, .menu-superior {
     margin: 1rem;
     width: 40%;
 }
+.nav-menu{
+    margin: 0;
+}
+.menu-expandible{
+    display: none;
+    width: 60%;
+   
+    
+    
+        
+}
+
+
+.nav-menu:focus +  .menu-expandible {
+    position: absolute;
+    left: 0;
+    top: 0; 
+    display: block;
+    background-color:#FFF;
+    
+}
 .menu--superior--right{
     display: flex;
     align-items: center;
