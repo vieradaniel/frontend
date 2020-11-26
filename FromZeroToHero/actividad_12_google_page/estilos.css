@@ -62,7 +62,7 @@ header, .menu-superior {
 }
 .menu-expandible{
     display: none;
-    width: 60%;
+    width: 70%;
     height: 100%;              
 }
 .google-logo{
@@ -76,9 +76,10 @@ header, .menu-superior {
 }
 .hr{
     height: 1px;
-    width: 60%;
+    width: 72%;
     display: block;
     border: solid 1px #dadce0;
+    
 }
 .menu-expandible>a{
     display: flex;
