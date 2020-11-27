@@ -63,7 +63,11 @@ header, .menu-superior {
 .menu-expandible{
     display: none;
     width: 70%;
-    height: 100%;              
+    height: 100%;
+                 
+}
+span{
+    font-size: 16px;
 }
 .google-logo{
     height: 80%;
@@ -85,7 +89,7 @@ header, .menu-superior {
     display: flex;
     align-items: center;
 }
-
+/* I'm missing the background color :black on the body, not really sure how to do it */
 .nav-menu:focus +  .menu-expandible {
     position: absolute;
     left: 0;
@@ -96,17 +100,16 @@ header, .menu-superior {
     grid-template-rows: repeat(5,48px) 1px repeat(6,48px);  
     background-color:#FFF;
     animation-name: collapsible-menu;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-timing-function: ease;
-    
-    
-    
+          
 }
+
 @keyframes collapsible-menu {
     0%   {
        
         
-        left: -200px;
+        left: -300px;
         
     }
     25%  {}
@@ -218,6 +221,3 @@ footer{
     
 }
 
-@media () {
-
-}
