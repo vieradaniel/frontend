@@ -139,12 +139,21 @@ span{
     right: 10px;
     width: 90%;
     height: 70%;
-    border: solid 1px black;
+    border: solid 1px #dadce0;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-top: 1rem;
 }
+.parrilla-menu-expandible>img{
+    margin: 1rem;
+}
+/* I still need to add a scroll bar*/
 .boton-parrilla-derecha:focus + .parrilla-menu-expandible{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    box-shadow: 0 0 10px #dadce0;
 }
 
 
@@ -156,9 +165,14 @@ span{
     width: 32px;
     height: 32px;
 }
-.imagen-media{
+.menu-parrilla-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 64px;
     height: 64px;
+    margin: 1rem;
+    
 }
 
 /**
