@@ -131,6 +131,7 @@ span{
 }
 .boton-parrilla-derecha{
     border: none;
+    padding: 8px;
     
 }
 .parrilla-menu-expandible{
@@ -155,7 +156,14 @@ span{
     flex-wrap: wrap;
     box-shadow: 0 0 10px #dadce0;
 }
-
+.boton-parrilla-derecha:focus{
+    box-sizing: border-box;
+    border: solid 1px #F5F5F5;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    opacity:0.2 ;
+    
+}
 
 .redondo {
     border-radius: 50%;
@@ -172,7 +180,11 @@ span{
     width: 64px;
     height: 64px;
     margin: 1rem;
+    justify-content: space-between;
     
+}
+.button-profilepicture{
+    margin: 0;
 }
 
 /**
@@ -204,8 +216,7 @@ form{
 }
 button{
     background-color: transparent;
-    border: none;
-    margin: 7px;
+    border: none;   
     padding: 0;
     
 }
