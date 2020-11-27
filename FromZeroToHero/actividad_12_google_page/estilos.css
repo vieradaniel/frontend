@@ -129,7 +129,23 @@ span{
     width: 20%;
     
 }
-
+.boton-parrilla-derecha{
+    border: none;
+    
+}
+.parrilla-menu-expandible{
+    display: none;
+    position: absolute;    
+    right: 10px;
+    width: 90%;
+    height: 70%;
+    border: solid 1px black;
+}
+.boton-parrilla-derecha:focus + .parrilla-menu-expandible{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 
 .redondo {
@@ -139,6 +155,10 @@ span{
 .imagen-miniatura {
     width: 32px;
     height: 32px;
+}
+.imagen-media{
+    width: 64px;
+    height: 64px;
 }
 
 /**
