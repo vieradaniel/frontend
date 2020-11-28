@@ -24,7 +24,7 @@ ul {
 a{
     text-decoration: none;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 100;
     color: #70757a;
     /* le puse un display block y se centro... entiendo pero no entiendo */
     display: block;
@@ -64,6 +64,7 @@ header, .menu-superior {
     display: none;
     width: 70%;
     height: 100%;
+    
                  
 }
 span{
@@ -82,13 +83,15 @@ span{
     height: 1px;
     width: 72%;
     display: block;
-    border: solid 1px #dadce0;   
+    border: 0;
+    background-color: #dadce0;    
 }
 .hr-fullwidth{
-    height: 1px;
+   height: 1px;
     width: 110%;
     display: block;
-    border: solid 1px #dadce0;  
+    border: 0;
+    background-color: #dadce0;  
 }
 .menu-expandible>a{
     display: flex;
@@ -105,7 +108,7 @@ span{
     grid-template-rows: repeat(5,48px) 1px repeat(6,48px);  
     background-color:#FFF;
     animation-name: collapsible-menu;
-    animation-duration: 0.5s;
+    animation-duration: 0.4s;
     animation-timing-function: ease;
           
 }
@@ -138,12 +141,17 @@ span{
     border: none;
     padding: 8px;
     
+    
+}
+.boton-parrilla-color{
+    color: #5f6368;
+    opacity: 1;
 }
 .parrilla-menu-expandible{
     display: none;
     position: absolute;    
     right: 10px;
-    width: 90%;
+    width: 88%;
     height: 70%;
     border: solid 1px #dadce0;
     background-color: #FFF;
@@ -164,7 +172,7 @@ span{
     box-sizing: border-box;  
     border-radius: 50%;
     background-color:#70757a;
-    opacity:0.2 ;
+    opacity:0.5 ;
     
 }
 
@@ -198,7 +206,7 @@ span{
     display: none ;
     position: absolute;    
     right: 10px;
-    width: 90%;
+    width: 93%;
     height: 70%;
     border: solid 1px #dadce0;
     background-color: #FFF;
@@ -208,16 +216,17 @@ span{
 .button-profilepicture:focus + .profile-menu-expandible{
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-around;
     align-items: center;
     padding: 1rem;
+    overflow: scroll;
 }
-.margin-top{
-    margin-top: 1rem;
+.button-profilepicture:focus{
+border-radius: 50%;
+background-color:#70757a;
+opacity:0.5 ;
 }
-.margin-bottom{
-    margin-bottom: 1rem;
-}
+
 
 .profile-menu-expandible-button{
     border: 1px solid #dadce0 ;
@@ -226,6 +235,10 @@ span{
     padding-left: 15px;
     padding-right: 15px;
     overflow: scroll;
+}
+.signout-button{
+    padding: .5rem 1rem;
+    border: 1px solid #dadce0;
 }
 /**
 FINALIZA: Cabecera de página
@@ -259,6 +272,16 @@ button{
     border: none;   
     padding: 0;
     
+}
+.color-grey{
+    fill:#5f6368;
+    opacity: 1;
+}
+.search-button{
+    padding-left: 10px;
+}
+.microphone-button{
+    padding-right: 10px;
 }
 .span--below--form{
     margin-top: 7%;
