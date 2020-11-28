@@ -82,8 +82,13 @@ span{
     height: 1px;
     width: 72%;
     display: block;
-    border: solid 1px #dadce0;
-    
+    border: solid 1px #dadce0;   
+}
+.hr-fullwidth{
+    height: 1px;
+    width: 110%;
+    display: block;
+    border: solid 1px #dadce0;  
 }
 .menu-expandible>a{
     display: flex;
@@ -205,6 +210,22 @@ span{
     flex-direction: column;
     
     align-items: center;
+    padding: 1rem;
+}
+.margin-top{
+    margin-top: 1rem;
+}
+.margin-bottom{
+    margin-bottom: 1rem;
+}
+
+.profile-menu-expandible-button{
+    border: 1px solid #dadce0 ;
+    padding: 8px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: scroll;
 }
 /**
 FINALIZA: Cabecera de página
