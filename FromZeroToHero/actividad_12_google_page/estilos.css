@@ -145,9 +145,7 @@ span{
     border-radius: 10px;
     margin-top: 1rem;
 }
-.parrilla-menu-expandible>img{
-    margin: 1rem;
-}
+
 /* I still need to add a scroll bar*/
 .boton-parrilla-derecha:focus + .parrilla-menu-expandible{
     display: flex;
@@ -155,12 +153,12 @@ span{
     align-items: center;
     flex-wrap: wrap;
     box-shadow: 0 0 10px #dadce0;
+    overflow: scroll;
 }
 .boton-parrilla-derecha:focus{
-    box-sizing: border-box;
-    border: solid 1px #F5F5F5;
+    box-sizing: border-box;  
     border-radius: 50%;
-    background-color: #F5F5F5;
+    background-color:#70757a;
     opacity:0.2 ;
     
 }
@@ -185,8 +183,22 @@ span{
 }
 .button-profilepicture{
     margin: 0;
+    padding: 4px;
 }
-
+.profile-menu-expandible{
+    display: none ;
+    position: absolute;    
+    right: 10px;
+    width: 90%;
+    height: 70%;
+    border: solid 1px #dadce0;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.button-profilepicture:focus + .profile-menu-expandible{
+    display: block;
+}
 /**
 FINALIZA: Cabecera de página
 **/
