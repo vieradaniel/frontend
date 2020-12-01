@@ -1,3 +1,6 @@
+:root{
+    --grey-color:#70757a;
+}
 /* Reseteo global */
 * { 
     box-sizing: border-box;
@@ -25,7 +28,7 @@ a{
     text-decoration: none;
     font-size: 12px;
     font-weight: 100;
-    color: #70757a;
+    color: var(--grey-color);
     /* le puse un display block y se centro... entiendo pero no entiendo */
     display: block;
 }
@@ -128,7 +131,20 @@ span{
     }
   }
 
-
+.link-all{
+    
+    padding: 14px 0;
+    border-bottom: 2px solid #4285f4;
+}
+.link-images{
+    padding: 14px 0;
+    border-bottom: 2px solid #FFF;
+    
+}
+.link-images-active{
+    padding: 14px 0;
+    border-bottom: 2px solid #4285f4;
+}
 .menu--superior--right{
     display: flex;
     align-items: center;
@@ -171,7 +187,7 @@ span{
 .boton-parrilla-derecha:focus{
     box-sizing: border-box;  
     border-radius: 50%;
-    background-color:#70757a;
+    background-color:var(--grey-color);
     opacity:0.5 ;
     
 }
@@ -223,7 +239,7 @@ span{
 }
 .button-profilepicture:focus{
 border-radius: 50%;
-background-color:#70757a;
+background-color:var(--grey-color);;
 opacity:0.5 ;
 }
 
@@ -262,7 +278,7 @@ main>img{
 }
 form{
     
-    border: 1px solid #70757a;
+    border: 1px solid var(--grey-color);;
     display: flex;
     justify-content: space-between;
     height: 40px;
@@ -312,7 +328,7 @@ footer{
     
     font-size: 16px;
     font-weight: 200;
-    color: #70757a;
+    color: var(--grey-color);
     border-bottom: 1px solid #dadce0;
     padding: 1rem;
     margin: 0;
