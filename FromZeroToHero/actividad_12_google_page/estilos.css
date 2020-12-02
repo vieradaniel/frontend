@@ -262,7 +262,6 @@ FINALIZA: Cabecera de página
 main{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     text-align: center;
     margin: 1rem;
@@ -289,6 +288,9 @@ button{
     border: none;   
     padding: 0;
     
+}
+.main--botones--busqueda{
+    display: none;    
 }
 .color-grey{
     fill:#5f6368;
@@ -359,16 +361,16 @@ footer{
     .menu--superior--right{
         justify-content: flex-end;
     }
-
-    .search--form{
-        
-        width: 70%;
-       
+    
+    main{
+        margin: 0 8rem ;
     }
+    
     main>img{
-        height: 10rem;
-        margin-bottom: 1rem;
-        
+        margin: 1rem 4rem;
+        height: 15rem;
     }
-
+    .main--botones--busqueda{
+        display: block;
+    }
 }
