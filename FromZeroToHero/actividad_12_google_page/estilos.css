@@ -262,6 +262,7 @@ FINALIZA: Cabecera de página
 main{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     text-align: center;
     margin: 1rem;
@@ -345,3 +346,29 @@ footer{
     
 }
 
+@media only screen and (min-width: 600px){
+    
+    .menu-superior{
+        justify-content: flex-end;
+    }
+    
+    .menu--superior--left{
+        display: none;
+    }
+
+    .menu--superior--right{
+        justify-content: flex-end;
+    }
+
+    .search--form{
+        
+        width: 70%;
+       
+    }
+    main>img{
+        height: 10rem;
+        margin-bottom: 1rem;
+        
+    }
+
+}
