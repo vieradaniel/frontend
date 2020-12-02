@@ -364,11 +364,14 @@ footer{
     
     main{
         margin: 0 8rem ;
+        align-items: center;
     }
     
     main>img{
         margin: 1rem 4rem;
-        height: 15rem;
+        height: 180px;
+        width: 500px;
+        
     }
     .main--botones--busqueda--container{
         display: block;
