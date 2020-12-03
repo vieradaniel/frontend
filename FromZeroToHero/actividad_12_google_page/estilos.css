@@ -154,11 +154,12 @@ span{
     width: 20%;
     
 }
+/* ahá!! got you outline!!*/
 .boton-parrilla-derecha{
     border: none;
     padding: 8px;
-    
-    
+    outline: none;
+       
 }
 .boton-parrilla-color{
     color: #5f6368;
@@ -218,6 +219,7 @@ span{
 .button-profilepicture{
     margin: 0;
     padding: 4px;
+    outline: none;
 }
 .profile-menu-expandible{
     display: none ;
@@ -251,7 +253,7 @@ opacity:0.5 ;
     border-radius: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    overflow: scroll;
+   
 }
 .signout-button{
     padding: .5rem 1rem;
@@ -313,6 +315,11 @@ button{
 input{
     border: none;
     width: 100%;
+}
+/* I thought it was the border but it turned out to be the outline D: wtf? not really sure how to explain the outline*/
+input:focus{
+    border: none; /* This could be deleted but I leave it here as a reference to my question*/
+    outline: none;
 }
 
 
@@ -390,6 +397,7 @@ footer{
         border-radius: 4px;
         box-sizing: border-box;
     }
+    /* when I hover over them they take more space I think it is the border but I added box sizing and */
     .main--boton--busqueda--item:hover{
        border: 1px solid #dadce0;
        
@@ -428,4 +436,22 @@ footer{
         
         
     }
+
+    .profile-menu-expandible-button:hover{
+        background-color: var(--light-grey--color) ;
+    }
+    
+    .parrilla-menu-expandible{
+        width: 330px;
+        right: 2rem;
+        
+    }
+
+    /* ahhhh , mirá vo , el outline de nuevo */
+    .button-profilepicture:focus{
+        background-color: transparent;
+        opacity: none;
+        
+    }
+
 }
