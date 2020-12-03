@@ -1,5 +1,6 @@
 :root{
     --grey-color:#70757a;
+    --light-grey--color:#dfe1e5;
 }
 /* Reseteo global */
 * { 
@@ -278,7 +279,7 @@ main>img{
 }
 form{
     
-    border: 1px solid var(--grey-color);;
+    border: 1px solid var(--light-grey--color);
     display: flex;
     justify-content: space-between;
     height: 40px;
@@ -295,6 +296,9 @@ button{
 .color-grey{
     fill:#5f6368;
     opacity: 1;
+}
+.color--light-grey{
+    fill: var(--light-grey--color)
 }
 .search-button{
     padding-left: 10px;
@@ -321,11 +325,13 @@ footer{
 }
 .menu-inferior{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
     
     
+    
+    
+}
+.menu--inferior--izquierda{
+    display: none;
 }
 .footer--h1{
     
@@ -380,15 +386,46 @@ footer{
         background-color: #f8f9fa;
         padding: 0 1rem;
         color: #3c4043;
-        margin: 1rem 4px;
+        margin: 1rem 5px;
         border-radius: 4px;
+        box-sizing: border-box;
     }
     .main--boton--busqueda--item:hover{
        border: 1px solid #dadce0;
+       
     }
     .span--below--form{
         margin: 0;
        
+        
+    }
+    form{
+        width: 600px;
+        border:1px solid var(--light-grey--color);
+    }
+    form:hover{
+        box-shadow: 0 0 5px 1px var(--light-grey--color);
+    }
+    .menues-inferior-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu--inferior--izquierda{
+        display: flex;
+        
+        padding-left: 0;
+    }
+
+    .menu--inferior--izquierda:first-child{
+        margin-left: 0;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .profile-menu-expandible{
+        width: 354px;
+        right: 2rem;
+        
         
     }
 }
