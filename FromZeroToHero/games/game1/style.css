@@ -44,3 +44,19 @@ li{
   text-align: center;
   padding: 5px 0;
 }
+
+#whoAmI-frame{
+  display: none;
+  width: 70%;
+  height: 30%;
+  border: 1px solid black;
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  background-color: white;
+}
+
+/* logic */
+#whoAmI:checked ~ #whoAmI-frame{
+   display: block;
+}
