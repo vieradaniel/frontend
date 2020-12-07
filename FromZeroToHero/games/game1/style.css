@@ -30,7 +30,10 @@ h1{
 #li-sinborde{
   border: none;
 }
-
+audio{
+  position: fixed;
+  top: 0;
+}
 .menu-frame--ul{
   padding: 0;
   margin: 0;
