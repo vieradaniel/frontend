@@ -48,15 +48,23 @@ li{
 #whoAmI-frame{
   display: none;
   width: 70%;
-  height: 30%;
+  height: 50%;
   border: 1px solid black;
   position: fixed;
   top: 15%;
   left: 15%;
   background-color: white;
+  border-radius: 10px;
+}
+
+.whoAmI-frame--title{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* logic */
 #whoAmI:checked ~ #whoAmI-frame{
    display: block;
+   
+   
 }
