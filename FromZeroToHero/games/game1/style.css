@@ -22,9 +22,13 @@ h1{
  display: flex;
  flex-direction: column;
  justify-content: space-around;
- height: 50%;
- margin: 2rem 2rem;
- 
+ height: 100%;
+ width: 100%;
+ padding: 2rem 2rem;
+  
+}
+#li-sinborde{
+  border: none;
 }
 
 .menu-frame--ul{
@@ -44,6 +48,16 @@ h1{
   text-align: center;
   padding: 5px 0;
 }
+
+.menu-frame--picture{
+ 
+}
+.menu-frame--picture img{
+  width: 100%;
+  height: 100%;
+}
+
+
 #play-game{
   display: none;
   width: 100%;
