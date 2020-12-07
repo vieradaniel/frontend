@@ -115,12 +115,25 @@ input{
 }
 
 .winning-picture{
-  
+  width: 100%;
+  height: 100%;
 }
 
 #stage3:checked ~ #stage3--frame{
   display: flex;
   position: fixed;
   top: 0;
+  
+}
 
+#stage3--win{
+  width: 100%;
+  height: 100%;
+}
+
+#stage3-winner:checked ~ #stage3--win{
+  top: 0;
+  right: 0;
+  position: fixed;
+    
 }
