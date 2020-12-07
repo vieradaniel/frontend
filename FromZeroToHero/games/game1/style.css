@@ -103,12 +103,13 @@ label img{
   display: none;
   width: 70%;
   height: 50%;
-  border: 1px solid black;
+  border: 5px solid black;
   position: fixed;
   top: 15%;
   left: 15%;
   background-color: white;
   border-radius: 10px;
+  padding: 1rem;
 }
 
 
@@ -120,7 +121,9 @@ label img{
 
 /* General logic */
 #whoAmI:checked ~ #whoAmI-frame{
-   display: block;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 
 }   
 #play:checked ~ #play-game{
@@ -166,3 +169,5 @@ input{
   position: fixed;
     
 }
+
+/* game logic */
