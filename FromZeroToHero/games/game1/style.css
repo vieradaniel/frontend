@@ -9,4 +9,38 @@ html, body {
     
   }
 
+.input{
+  display: none;
+}
+h1{
+  margin: 0;
+  text-align: center;
+}
 
+.menu-frame{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ height: 50%;
+ margin: 0 30px;
+ 
+}
+
+.menu-frame--ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+}
+li{
+  margin: 5px;
+  list-style: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 0;
+}
