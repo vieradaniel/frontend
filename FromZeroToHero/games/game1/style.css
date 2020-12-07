@@ -119,7 +119,7 @@ input{
 }
 
 #stage3:checked ~ #stage3--frame{
-  display: block;
+  display: flex;
   position: fixed;
   top: 0;
 
