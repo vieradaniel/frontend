@@ -131,8 +131,8 @@ label img{
   padding: 1rem;
 }
 .whoAmI-frame--image-container ,.howToPlay-frame--image-container{
-  width: 50%;
-  height: 30%;
+  width: 40%;
+  height: 20%;
 }
 .whoAmI-frame--image-container img , .howToPlay-frame--image-container img{
   width: 100%;
