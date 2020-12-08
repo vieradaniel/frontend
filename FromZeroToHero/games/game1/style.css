@@ -105,7 +105,7 @@ label img{
   height: 100%;
 }
 
-#whoAmI-frame{
+#whoAmI-frame ,#howToPlay-frame{
   display: none;
   width: 70%;
   height: 70%;
@@ -117,18 +117,19 @@ label img{
   border-radius: 10px;
   padding: 1rem;
 }
-.whoAmI-frame--image-container{
+.whoAmI-frame--image-container ,.howToPlay-frame--image-container{
   width: 50%;
   height: 30%;
 }
-.whoAmI-frame--image-container img{
+.whoAmI-frame--image-container img , .howToPlay-frame--image-container img{
   width: 100%;
   height: 100%;
 }
 
-.whoAmI-frame--title{
+.whoAmI-frame--title , .howToPlay-frame--title{
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 
@@ -139,7 +140,15 @@ label img{
    justify-content: space-between;
    align-items: center;
 
-}   
+} 
+
+#howToPlay:checked ~ #howToPlay-frame{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #play:checked ~ #play-game{
   display: block;
 }   
