@@ -47,19 +47,25 @@ audio{
 .menu-frame--ul li{
   margin: 5px;
   list-style: none;
-  border: 1px solid #000;
-  border-radius: 10px;
-  text-align: center;
-  padding: 1rem 0;
-  box-shadow: 0px 10px 10px -6px black;
+  
 
 }
 .menu-frame--ul li:hover{
   background-color: grey;
 }
 
-.menu-frame--picture{
- 
+.button{
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem 0;
+  box-shadow: 0px 10px 10px -6px black;
+}
+.button-small{
+  padding: 1rem 1rem;
+}
+.button-big{
+  padding: 1rem 0;
 }
 .menu-frame--picture img{
   width: 100%;
@@ -112,8 +118,8 @@ label img{
   padding: 1rem;
 }
 .whoAmI-frame--image-container{
-  width: 100px;
-  height: 100px;
+  width: 50%;
+  height: 30%;
 }
 .whoAmI-frame--image-container img{
   width: 100%;
