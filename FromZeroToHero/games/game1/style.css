@@ -94,6 +94,15 @@ audio{
   width: 50%;
   height: 50%;
 }
+audio{
+  position: fixed;
+  left: 40%;
+  top: 45%;
+  width: 30%;
+}
+audio::-webkit-media-controls-timeline, audio::-webkit-media-controls-toggle-closed-captions-button{
+  display: none;
+}
 li label{
   display: block;
   width: 100%;
@@ -107,12 +116,12 @@ label img{
 
 #whoAmI-frame ,#howToPlay-frame{
   display: none;
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   border: 5px solid black;
   position: fixed;
-  top: 15%;
-  left: 15%;
+  top: 10%;
+  left: 10%;
   background-color: white;
   border-radius: 10px;
   padding: 1rem;
