@@ -15,6 +15,7 @@ html, body {
 h1{
   margin: 0;
   text-align: center;
+  padding-bottom: 1rem;
 }
 
 .menu-frame{
