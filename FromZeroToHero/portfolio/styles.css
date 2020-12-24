@@ -6,6 +6,7 @@ html body{
     height:100;
     margin: 0;
     padding:0;
+    font-family: sans-serif;
 
 }
 header{
@@ -13,8 +14,15 @@ header{
     grid-template-columns: repeat(12,1fr) ;
     align-items:center;
     padding:1rem;
+    padding-bottom: 2rem;
    
 
+}
+.logo{
+ width:60px;
+}
+.logo img{
+    width:100%;
 }
 .collapsible {
     
@@ -52,7 +60,13 @@ header{
   }
   h1{
       text-align:center;
+      margin: 0 1rem;
+      font-size:1,5rem;
       
+  }
+  .subtitle{
+      text-align:center;
+      color:#333;
   }
   .social-icons-and-close{
       background:#FFF;
@@ -66,4 +80,17 @@ header{
   }
   .social-icon-container img{
       width:100%
+  }
+
+  .benefits-for-hiring-me-container{
+      padding:1rem;
+      background:#f9f9f9;
+      margin: 1rem;
+      text-align: center;
+  }
+  .image-container{
+    width:100%
+  }
+  .image-container img{
+      width:100%;
   }
