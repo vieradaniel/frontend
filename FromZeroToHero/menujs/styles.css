@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:400,500&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: #e0e2ef;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.45;
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.phone {
+  background: black;
+  border-radius: 40px;
+  border: 10px solid #21262b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  height: 600px;
+  overflow: hidden;
+  perspective: 600px;
+  position: relative;
+  width: 310px;
+}
+.phone::before {
+  background: #21262b;
+  content: "";
+  height: 20px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 50%;
+  z-index: 2;
+  border-radius: 0 0 15px 15px;
+}
+.phone .container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.75s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-style: preserve-3d;
+}
+.phone .container.--is-flipped {
+  transform: rotateY(180deg);
+}
+.phone .container.--is-flipped .menu button {
+  transform: scale(1);
+}
+.phone .container.--is-flipped nav,
+.phone .container.--is-flipped h1 {
+  opacity: 1;
+  animation: animationFrames linear 1s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+}
+@keyframes animationFrames {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.phone .content,
+.phone .menu {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.phone .content button,
+.phone .menu button {
+  position: absolute;
+  bottom: 2em;
+  outline: none;
+  right: 2em;
+  border-radius: 100%;
+  width: 5em;
+  backface-visibility: hidden;
+  height: 5em;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone .content button svg,
+.phone .menu button svg {
+  display: block;
+}
+.phone .content {
+  background: #ffd10f;
+}
+.phone .menu {
+  background: #2e2ebc;
+  transform: rotateY(180deg);
+}
+.phone .menu * {
+  backface-visibility: hidden;
+}
+.phone .menu button {
+  transform: scale(0);
+  transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-delay: 0.8s;
+}
+.phone .menu h1 {
+  color: white;
+}
+.phone .menu nav {
+  opacity: 0;
+}
+.phone .menu nav li a {
+  font-size: 2rem;
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
